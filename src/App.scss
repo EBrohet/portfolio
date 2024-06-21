@@ -1,0 +1,32 @@
+h1{
+  text-align: center;
+  margin-top: 20px;
+  position: relative;
+  top: 80px;
+  font-size: 52px;
+}
+
+.intro{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 230px;
+  margin-bottom: 260px;
+
+  figure{
+    img{
+      height: 350px;
+      border-radius: 50%;
+    }
+  }
+
+  .parcours{
+    width: 500px;
+    text-align: center;
+  }
+}
+
+.portfolio{
+  background-color: bisque;
+  height: 1020px;
+}
