@@ -6,24 +6,8 @@ h1{
   font-size: 52px;
 }
 
-.intro{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 230px;
-  margin-bottom: 260px;
-
-  figure{
-    img{
-      height: 350px;
-      border-radius: 50%;
-    }
-  }
-
-  .parcours{
-    width: 500px;
-    text-align: center;
-  }
+.skills{
+  height: 500px;
 }
 
 .portfolio{
