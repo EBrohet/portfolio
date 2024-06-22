@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.14afe19c.css",
+    "main.js": "/portfolio/static/js/main.c004d35b.js",
+    "static/js/453.1407b060.chunk.js": "/portfolio/static/js/453.1407b060.chunk.js",
+    "static/media/kasa_accueil.png": "/portfolio/static/media/kasa_accueil.ece084ad395dfd124788.png",
+    "static/media/grimoire_accueil.png": "/portfolio/static/media/grimoire_accueil.b07857a18a3e34ae2071.png",
+    "static/media/avatar.jpg": "/portfolio/static/media/avatar.6badd14d476b1e0dbce9.jpg",
+    "static/media/linkedin.jpeg": "/portfolio/static/media/linkedin.4f3d91fc39c9198f07ed.jpeg",
+    "static/media/github.png": "/portfolio/static/media/github.59db52842b3451a48125.png",
+    "index.html": "/portfolio/index.html",
+    "main.14afe19c.css.map": "/portfolio/static/css/main.14afe19c.css.map",
+    "main.c004d35b.js.map": "/portfolio/static/js/main.c004d35b.js.map",
+    "453.1407b060.chunk.js.map": "/portfolio/static/js/453.1407b060.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.14afe19c.css",
+    "static/js/main.c004d35b.js"
+  ]
+}
