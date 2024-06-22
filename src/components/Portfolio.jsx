@@ -8,11 +8,11 @@ function Portfolio() {
         <div className='sites'>
           <figure>
             <img src={kasa} alt="site Kasa" className='projets' />
-            <figcaption>Site Kasa de location immobilière en React</figcaption>
+            <figcaption><a href='https://github.com/EBrohet/OC_Projet-5'>Site Kasa de location immobilière en React</a></figcaption>
           </figure>
           <figure>
             <img src={grimoire} alt="site Mon Vieux Grimoire" className='projets' />
-            <figcaption>site Mon Vieux Grimoire de notation de livres en Node.js</figcaption>
+            <figcaption><a href='https://github.com/EBrohet/OC_Projet-6'>Site Mon Vieux Grimoire de notation de livres en Node.js</a></figcaption>
           </figure>
         </div>
     )

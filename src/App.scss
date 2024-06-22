@@ -1,16 +1,18 @@
+.app{
+  height: 1020px;
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+
+  .portfolio{
+    background-color: bisque;
+    height: 1020px;
+  }
+}
+
 h1{
   text-align: center;
   margin-top: 20px;
   position: relative;
   top: 80px;
   font-size: 52px;
-}
-
-.skills{
-  height: 500px;
-}
-
-.portfolio{
-  background-color: bisque;
-  height: 1020px;
 }

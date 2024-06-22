@@ -1,0 +1,37 @@
+[
+    {
+        "id": "1",
+        "title": "HTML",
+        "picture": "devicon-html5-plain colored"
+    },
+    {
+        "id": "2",
+        "title": "CSS",
+        "picture": "devicon-css3-plain colored"
+    },
+    {
+        "id": "3",
+        "title": "Sass",
+        "picture": "devicon-sass-original colored"
+    },
+    {
+        "id": "4",
+        "title": "JavaScript",
+        "picture": "devicon-javascript-plain colored"
+    },
+    {
+        "id": "5",
+        "title": "React",
+        "picture": "devicon-react-original colored"
+    },
+    {
+        "id": "6",
+        "title": "NodeJS",
+        "picture": "devicon-nodejs-plain colored"
+    },
+    {
+        "id": "7",
+        "title": "MongoDB",
+        "picture": "devicon-mongodb-plain colored"
+    }
+]

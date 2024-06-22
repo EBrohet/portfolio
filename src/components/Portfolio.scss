@@ -1,6 +1,7 @@
 .sites{
     display: flex;
     justify-content: center;
+    gap: 50px;
     margin-top: 230px;
 
     .projets{
@@ -11,5 +12,10 @@
     figcaption{
         margin-top: 10px;
         text-align: center;
+
+        a{
+            text-decoration: none;
+            color: black;
+        }
     }
 }
