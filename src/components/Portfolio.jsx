@@ -12,7 +12,7 @@ function Portfolio() {
       <div className='sites'>
         {projects.map(project =>
           <figure key={project.id}>
-            <img src={project.picture} alt={project.title} className='projets' />
+            <img src={process.env.PUBLIC_URL + project.picture} alt={project.title} className='projets' />
             <figcaption><a href={project.linkUrl}>{project.title}</a></figcaption>
             <ul>
               {project.tech.map((name, index) => (
