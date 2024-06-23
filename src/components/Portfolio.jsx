@@ -1,20 +1,27 @@
 import './Portfolio.scss';
-
-import kasa from '../assets/kasa_accueil.png';
-import grimoire from '../assets/grimoire_accueil.png';
+import data from '../assets/projects.json';
+import { useState, useEffect } from 'react';
 
 function Portfolio() {
+  const [projects, setProjects] = useState([]);
+  useEffect(() =>{
+    setProjects(data)
+  },[]);
+
     return (
-        <div className='sites'>
-          <figure>
-            <img src={kasa} alt="site Kasa" className='projets' />
-            <figcaption><a href='https://github.com/EBrohet/OC_Projet-5'>Site Kasa de location immobilière en React</a></figcaption>
+      <div className='sites'>
+        {projects.map(project =>
+          <figure key={project.id}>
+            <img src={project.picture} alt={project.title} className='projets' />
+            <figcaption><a href={project.linkUrl}>{project.title}</a></figcaption>
+            <ul>
+              {project.tech.map((name, index) => (
+                <li key={index} className='tech'>{name}</li>
+              ))}
+            </ul>
           </figure>
-          <figure>
-            <img src={grimoire} alt="site Mon Vieux Grimoire" className='projets' />
-            <figcaption><a href='https://github.com/EBrohet/OC_Projet-6'>Site Mon Vieux Grimoire de notation de livres en Node.js</a></figcaption>
-          </figure>
-        </div>
+        )}
+      </div>
     )
 }
 

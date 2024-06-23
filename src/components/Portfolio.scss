@@ -25,6 +25,14 @@
                 color: black;
             }
         }
+
+        ul{
+            border: 1px solid rgb(221, 160, 86);
+            padding: 10px 15px 10px 30px;
+        }
+        .tech{
+            font-size: 16px;
+        }
     }
 }
 
@@ -38,6 +46,12 @@
         figure{
             .projets{
                 width: 200px;
+            }
+
+            ul{
+                .tech{
+                    font-size: 10px;
+                }
             }
         }
     }

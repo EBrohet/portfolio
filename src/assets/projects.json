@@ -1,0 +1,29 @@
+[
+    {
+        "id": "p1",
+        "picture": "http://localhost:3000/portfolio/static/media/kasa_accueil.ece084ad395dfd124788.png",
+        "title": "Site Kasa de location immobilière en React",
+        "linkUrl": "https://github.com/EBrohet/OC_Projet-5",
+        "tech": [
+            "Utilisation de React Router",
+            "Mise en place d'animations CSS",
+            "Utilisation de Sass",
+            "Création d'un carrousel",
+            "Mise en place de composants collapse",
+            "Utilisation des hooks et des props"
+        ]
+    },
+    {
+        "id": "p2",
+        "picture": "http://localhost:3000/portfolio/static/media/grimoire_accueil.b07857a18a3e34ae2071.png",
+        "title": "Site Mon Vieux Grimoire de notation de livres en Node.js",
+        "linkUrl": "https://github.com/EBrohet/OC_Projet-6",
+        "tech": [
+            "Mise en place du serveur avec Express",
+            "Implémentation des données avec MongoDB",
+            "Création d'une API RESTful",
+            "Mise en place du système d'authentification",
+            "Gestion des images avec Multer et Sharp"
+        ]
+    }
+]
