@@ -14,8 +14,22 @@
     }
   
     .parcours{
-      width: 500px;
+      max-width: 500px;
       text-align: center;
+      margin-right: 20px;
     }
-  }
+}
   
+/* Small devices (phones, less than 768px) */
+@media (max-width: 768px) {
+    .intro{
+        gap: 15px;
+        margin: 150px 0;
+
+        figure{
+            img{
+                height: 120px;
+            }
+        }
+    }
+}

@@ -2,6 +2,8 @@
     margin: 200px 150px;
     display: flex;
     justify-content: space-between;
+    gap: 10px;
+    flex-wrap: wrap;
 
     i{
         font-size: 4em;
@@ -9,5 +11,12 @@
 
     .name{
         text-align: center;
+    }
+}
+
+/* Small devices (phones, less than 768px) */
+@media (max-width: 768px) {
+    .banner{
+        margin: 150px 50px;
     }
 }

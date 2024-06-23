@@ -25,3 +25,16 @@
         }
     }
 }
+
+/* Small devices (phones, less than 768px) */
+@media (max-width: 768px) {
+    .header{
+        height: 35px;
+
+        .navbar{
+            gap: 10px;
+            margin-right: 0;
+            justify-content: center;
+        }
+    }
+}

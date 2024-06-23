@@ -12,3 +12,10 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* Small devices (phones, less than 768px) */
+@media (max-width: 768px) {
+  body{
+    font-size: 12px;
+  }
+}
