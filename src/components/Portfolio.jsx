@@ -2,6 +2,8 @@ import './Portfolio.scss';
 import data from '../assets/projects.json';
 import { useState, useEffect } from 'react';
 
+import Collapse from './Collapse';
+
 function Portfolio() {
   const [projects, setProjects] = useState([]);
   useEffect(() =>{
@@ -15,9 +17,7 @@ function Portfolio() {
             <img src={process.env.PUBLIC_URL + project.picture} alt={project.title} className='projets' />
             <figcaption><a href={project.linkUrl}>{project.title}</a></figcaption>
             <ul>
-              {project.tech.map((name, index) => (
-                <li key={index} className='tech'>{name}</li>
-              ))}
+              <Collapse project={project} />
             </ul>
           </figure>
         )}
