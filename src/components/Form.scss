@@ -2,7 +2,9 @@
     display: flex;
     flex-direction: column;
     gap: 15px;
-    margin: 0 80px 250px 80px;
+    margin: 0 100px 150px 100px;
+    min-width: 250px;
+    max-width: 800px;
 
     input{
         max-width: 300px;

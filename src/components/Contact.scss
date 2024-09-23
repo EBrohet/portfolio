@@ -4,11 +4,12 @@
 
     h2{
         font-size: 32px;
+        margin-bottom: 10px;
     }
 
     .logo{
-        width: 2.5em;
-        height: 2.5em;
+        width: 2.2em;
+        height: 2.2em;
         object-fit: cover;
         margin: 10px;
     }
@@ -17,7 +18,7 @@
 /* Small devices (phones, less than 768px) */
 @media (max-width: 768px) {
     .infos{
-        margin: 150px 100px;
+        margin: 150px 80px;
 
         h2{
             font-size: 20px;
